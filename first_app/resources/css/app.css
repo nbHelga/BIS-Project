@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#sidebar {
+    background-color: #2e856e; /* Sesuaikan dengan warna teal yang sesuai */
+    height: 100vh;
+}
+
+#sidebar .nav-link {
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+#main-content {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-header {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
